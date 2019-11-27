@@ -1,0 +1,4 @@
+<launch>
+<!--  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ros_pa3)/include/config.rviz" />-->
+  <node type="aviator.py" name="aviator" pkg="ros_pa4" output="screen" />
+</launch>
